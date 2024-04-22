@@ -3,6 +3,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
   
   header {
@@ -55,6 +58,7 @@ body {
   }
 
   main {
+    flex: 1;
     padding: 20px;
   }
   
@@ -67,11 +71,72 @@ body {
     height: 100px;
     object-fit: cover;
   }
+
+  .stats-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
   
+  .stats-item {
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .stats-item h2 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .stats-item p {
+    margin: 5px 0;
+  }
+
+  .why-join-section{
+    text-align: center;
+    margin: 5px;
+  }
+
+  .why-join-section ul{
+    list-style-type: none;
+    margin: 5px;
+    padding: auto;
+  }
+
+  .why-join-section ul li{
+    margin: 5px;
+    padding: auto;
+  }
+  
+  .academics-section {
+    margin-top: 20px;
+  }
+
+  .program-card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .program {
+    margin-bottom: 30px;
+  }
+  
+  .program h2 {
+    color: #333;
+  }
+  
+  .program p {
+    color: #666;
+  }
+
   footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    margin-top: auto;
   }
   
