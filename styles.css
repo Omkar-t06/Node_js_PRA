@@ -1,0 +1,77 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    margin: 10px;
+    height: 50px;
+    width: 75px;
+  }
+
+  .college-name{
+    margin-left: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  nav ul li.active a{
+    color: #e3cad1;
+    font-weight: bold;
+  }
+
+  nav ul li a:hover{
+    color: #d4a6b4;
+    text-decoration: underline;
+  }
+
+  main {
+    padding: 20px;
+  }
+  
+  .welcome-section {
+    text-align: center;
+  }
+
+  .banner {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
