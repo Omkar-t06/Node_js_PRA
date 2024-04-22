@@ -132,6 +132,15 @@ body {
     color: #666;
   }
 
+  .admission-section h2 {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .admission-section p {
+    color: #666;
+  }
+
   footer {
     background-color: #333;
     color: #fff;
